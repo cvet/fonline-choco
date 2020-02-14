@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>fonline</id>
+    <title>FOnline Engine</title>
+    <version>1.0.0</version>
+    <authors>cvet</authors>
+    <owners>cvet</owners>
+    <summary>FOnline Engine</summary>
+    <description>...</description>
+    <projectUrl>http://www.fonline.ru</projectUrl>
+    <tags>fonline</tags>
+    <copyright>cvet</copyright>
+    <licenseUrl>https://github.com/cvet/fonline/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/majkinetor/chocolatey/master/nexus-oss/icon.png</iconUrl>
+    <dependencies>
+    </dependencies>
+    <releaseNotes>https://fonline.ru</releaseNotes>
+    <docsUrl>https://fonline.ru</docsUrl>
+    <bugTrackerUrl>https://github.com/cvet/fonline</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/cvet/fonline</projectSourceUrl>
+    <packageSourceUrl>https://github.com/cvet/fonline</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
