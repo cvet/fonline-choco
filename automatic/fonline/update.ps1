@@ -10,6 +10,11 @@ function global:au_GetLatest {
 }
 
 function global:au_SearchReplace {
+    @{
+        "tools\chocolateyInstall.ps1" = @{
+        #    "(^[$]url32\s*=\s*)('.*')" = "`$1'$($Latest.URL32)'"
+        }
+    }
 }
 
 update -NoCheckUrl -ChecksumFor 32
