@@ -3,22 +3,22 @@
   <metadata>
     <id>fonline</id>
     <title>FOnline Engine</title>
-    <version>0.0.1</version>
+    <version>0.5.43</version>
     <authors>cvet</authors>
     <owners>cvet</owners>
     <summary>FOnline Engine</summary>
-    <description>...</description>
+    <description>Friendly engine for fallout-like isometric games for develop/play alone or with friends.</description>
     <projectUrl>http://www.fonline.ru</projectUrl>
     <tags>fonline</tags>
     <copyright>cvet</copyright>
     <licenseUrl>https://github.com/cvet/fonline/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/majkinetor/chocolatey/master/nexus-oss/icon.png</iconUrl>
+    <iconUrl>https://github.com/cvet/fonline/blob/master/Resources/Radiation.png</iconUrl>
     <dependencies>
     </dependencies>
-    <releaseNotes>https://fonline.ru</releaseNotes>
-    <docsUrl>https://fonline.ru</docsUrl>
-    <bugTrackerUrl>https://github.com/cvet/fonline</bugTrackerUrl>
+    <releaseNotes>https://github.com/cvet/fonline#work-in-progress</releaseNotes>
+    <docsUrl>https://github.com/cvet/fonline#fonline-engine</docsUrl>
+    <bugTrackerUrl>https://github.com/cvet/fonline/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/cvet/fonline</projectSourceUrl>
     <packageSourceUrl>https://github.com/cvet/fonline</packageSourceUrl>
   </metadata>
