@@ -1,3 +1,4 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-Write-Host "FOnline installation"
+Write-Host ("Set environment variable FONLINE_PATH to: " + $env:ChocolateyPackageFolder)
+Install-ChocolateyEnvironmentVariable "FONLINE_PATH" $env:ChocolateyPackageFolder Machine
