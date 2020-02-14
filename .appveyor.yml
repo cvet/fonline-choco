@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: cvet/fonline-chocolatey
   github_api_key:
-    secure: n1otcuJ4XY/M7PwM5hDNL4V2lntMs9Sub1GaXmPF64VnhKSz15qDpXxf9sZ6ummK
+    secure: gvyeDrWLWzExftTFeiaQsjv0+oQTRQ9yfRzNvKlq68kiRh+GRslpR5oSK9+Ivl9r
 
   # Mail credentials - for error notifications
   #mail_user:

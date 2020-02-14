@@ -1,9 +1,10 @@
 import-module au
 
 function global:au_GetLatest {
-    git clone https://github.com/cvet/fonline.git .
-	$version = '1.0.0-rev' + (git rev-parse --short=7 HEAD)
-	Remove-Item -Recurse -Force .git
+    if (Test-Path content) { Remove-Item -Recurse -Force content }
+    git clone --depth 1 https://github.com/cvet/fonline.git content
+    $version = Get-Content content/VERSION
+    Remove-Item -Recurse -Force content/.git
     $Latest = @{ Version = $version }
     return $Latest
 }
