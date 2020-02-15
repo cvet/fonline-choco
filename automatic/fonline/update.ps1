@@ -5,6 +5,7 @@ function global:au_GetLatest {
     git clone --depth 1 https://github.com/cvet/fonline.git content
     $version = Get-Content content/VERSION
     Remove-Item -Recurse -Force content/.git
+    Get-ChildItem -Recurse content/*ignore | foreach { Remove-Item -Path $_.FullName }
     $Latest = @{ Version = $version }
     return $Latest
 }
@@ -17,4 +18,5 @@ function global:au_SearchReplace {
     }
 }
 
+#update -NoCheckChocoVersion -NoCheckUrl -ChecksumFor 32
 update -NoCheckUrl -ChecksumFor 32

@@ -5,12 +5,11 @@
     <title>FOnline Engine</title>
     <version>0.5.43</version>
     <authors>cvet</authors>
-    <owners>cvet</owners>
     <summary>FOnline Engine</summary>
     <description>Friendly engine for fallout-like isometric games for develop/play alone or with friends.</description>
     <projectUrl>http://www.fonline.ru</projectUrl>
     <tags>fonline</tags>
-    <copyright>cvet</copyright>
+    <copyright>2006 - present, Anton Tsvetinskiy aka cvet</copyright>
     <licenseUrl>https://github.com/cvet/fonline/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://github.com/cvet/fonline/blob/master/Resources/Radiation.png</iconUrl>
